@@ -1,0 +1,199 @@
+/* ------- Google font url --------- */
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Poppins:wght@500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: lightblue;
+}
+
+/* -------------------------------  */
+/* ------- Logo, pics & Navigation -------- */
+/* -------------------------------  */
+
+.header-images {
+    display: flex;
+    justify-content: center;
+    border: 2px solid royalblue;
+    background-color: royalblue;
+}
+
+.front-images img {
+    width: 180px;
+    padding-top: 30px;
+}
+
+.front-images2 img {
+    width: 170px;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 20px;
+    padding: 0 10px;
+    border: 2px solid goldenrod;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+
+}
+
+nav li :hover {
+    background-color: royalblue;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: center;
+    border: 2px solid goldenrod;
+    background-color: goldenrod;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: goldenrod;
+    padding: 0;
+}
+
+nav>ul>li:hover>ul {
+    display: block;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+
+
+/* -------------------------------  */
+/* ------- Student profile -------- */
+/* -------------------------------  */
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.Stu_image img {
+    width: 160px;
+    padding-left: 130px;
+}
+
+.Stu_details1 {
+    padding-right: 110px;
+}
+
+.profile_details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile_details1 {
+    padding-left: 70px;
+}
+
+hr {
+    border: 2px solid gray;
+    margin-right: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.profile_details2 {
+    padding-right: 70px;
+}
+
+/* -------------------------------  */
+/* ------- My view >> Class Routine -------- */
+/* -------------------------------  */
+.C_routine {
+    color: darkslateblue;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 2fr) 3fr;
+}
+
+.cell {
+    font-size: 15px;
+    border: 2px solid darkslategray;
+}
+
+/* -------------------------------  */
+/* ------- My view >> Exam Routine -------- */
+/* -------------------------------  */
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(6, 2fr) 3fr;
+}
+
+.cell2 {
+    font-size: 15px;
+    border: 2px solid darkslategray;
+}
+
+/* -------------------------------  */
+/* ------- My view >> Faculty members -------- */
+/* -------------------------------  */
+
+.Faculty_heading {
+    color: darkslateblue;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.T_profile {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border: 2px solid royalblue;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    background-color: royalblue;
+}
+
+.T_image img {
+    width: 200px;
+    padding-left: 130px;
+    border-radius: 38%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.T_details1 {
+    padding-right: 180px;
+    padding-left: 40px;
+}
+
+a {
+    float: right;
+    background: goldenrod;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.stureg {
+    color: royalblue;
+    text-align: center;
+}
